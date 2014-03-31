@@ -8,6 +8,10 @@
            fetch="https://github.com/niltmt/"
            sync-c="true"
            sync-j="16" />
+  <remote name="slim"
+           fetch="https://github.com/SlimRoms/"
+           sync-c="true"
+           sync-j="16" />
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/"
            sync-c="true"
@@ -51,7 +55,7 @@
   <project path="bootable/recovery" name="SlimSaber/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dtd" revision="kitkat" />
-  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="slim" revision="kk4.4" />
   <project path="device/samsung/galaxys4gmtd" name="android_device_samsung_galaxys4gmtd" remote="dtd" revision="beanstalk" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="niltmt" revision="cm-11.0" />
   <project path="patches" name="patches" remote="dtd" revision="beanstalk" >
