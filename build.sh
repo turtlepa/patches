@@ -32,6 +32,7 @@ else
 fi
 
 # Setup environment
+rm -rf patches
 echo -e "${bldblu}Setting up build environment ${txtrst}"
 . build/envsetup.sh
 export USE_CCACHE=1
