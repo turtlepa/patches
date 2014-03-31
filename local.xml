@@ -55,5 +55,6 @@
      <copyfile src="build/tools/releasetools/common.py" dest="build/tools/releasetools/common.py" />
      <copyfile src="system/core/charger/charger.c" dest="system/core/charger/charger.c" />
      <copyfile src="bionic/libc/Android.mk" dest="bionic/libc/Android.mk" />
+     <copyfile src="build.sh" dest="build.sh" />
   </project>
 </manifest>
