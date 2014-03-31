@@ -51,10 +51,7 @@
   <project path="device/samsung/galaxys4gmtd" name="android_device_samsung_galaxys4gmtd" remote="dtd" revision="beanstalk" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="dtd" revision="kitkat" />
   <project path="patches" name="patches" remote="dtd" revision="beanstalk" >
-     <copyfile src="build/core/Makefile" dest="build/core/Makefile" />
-     <copyfile src="build/tools/releasetools/common.py" dest="build/tools/releasetools/common.py" />
-     <copyfile src="system/core/charger/charger.c" dest="system/core/charger/charger.c" />
-     <copyfile src="bionic/libc/Android.mk" dest="bionic/libc/Android.mk" />
+     <copyfile src="patch.sh" dest="patch.sh" />
      <copyfile src="build.sh" dest="build.sh" />
   </project>
 </manifest>
