@@ -9,4 +9,4 @@ For the charger patch, it's not really a device failure but the recovery. As you
 
 The last thing is the build script that I adopted from Slimsaber. Thanks Fusionjack for it as I find it's kinda useful, especially in setting up the ccache.
 
-These patch are, in some ways, universal for kitkat builds to be built properly atm for galaxys4gmtd. When I have time later, after my exams, I will clean up the build tree and make changes to adapt to AOSP best, instead of using temp patches so hopefully, this repo will be dis-continued soon. Cheers!
+These patch are, in some ways, universal for kitkat builds to be built properly at the moment for galaxys4gmtd. When I have time later, after my exams, I will clean up the build tree and make changes to adapt to AOSP best, instead of using temp patches so hopefully, this repo will be dis-continued soon. That time, and only that time that we are able to do cronjob for weekly or even nightly without fear of conflicting with the original source. Cheers!
